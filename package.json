@@ -2,6 +2,9 @@
   "name": "blog",
   "description": "Blog",
   "version": "1.0.0",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "express": "^4.16.2",
     "marked": "^0.3.6"
