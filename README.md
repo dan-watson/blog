@@ -1,4 +1,4 @@
-# Wella Search Demo
+# Simple Blog Engine
 
 ## Getting Started
 
