@@ -1,0 +1,16 @@
+from "node:8-alpine"
+
+run "mkdir /src"
+
+workdir "/src"
+
+copy "./package.json", "/src/"
+
+run "npm install -g"
+
+npm_prefix = "/usr/local/lib/node_modules/blog/node_modules"
+env NODE_PATH: npm_prefix
+
+set_exec entrypoint: [ "/bin/ash", "-e", "-u", "-c" ], cmd: [ ]
+
+tag "dan-watson/blog"

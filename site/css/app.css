@@ -1,0 +1,12 @@
+body {
+  font-family: 'Source Serif Pro', serif;
+  margin: 5em;
+}
+
+h1, h2, h3 {
+  margin: 0.5em 0;
+}
+
+p {
+  line-height: 1.8em;
+}
