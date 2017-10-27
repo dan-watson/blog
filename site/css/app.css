@@ -1,12 +1,41 @@
 body {
   font-family: 'Source Serif Pro', serif;
-  margin: 5em;
+  margin: 0 5vw;
+  width: 90vw;
+}
+
+:root {
+  --primary-color: #550000
+}
+
+header {
+  margin: 0 auto;
+}
+
+header h1 {
+  color: var(--primary-color);
+  text-transform: uppercase;
 }
 
 h1, h2, h3 {
-  margin: 0.5em 0;
+  margin: 1em 0;
+}
+
+a {
+  font-weight: bold;
 }
 
 p {
   line-height: 1.8em;
+}
+
+article {
+}
+
+footer {
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--primary-color) 
 }
