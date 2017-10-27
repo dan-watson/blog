@@ -6,7 +6,7 @@ workdir "/src"
 
 copy "./package.json", "/src/"
 
-run "npm install -g"
+run "npm install -g npm@4.6 && npm install -g"
 
 npm_prefix = "/usr/local/lib/node_modules/blog/node_modules"
 env NODE_PATH: npm_prefix
