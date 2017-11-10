@@ -1,3 +1,3 @@
 ## Posts
 
-[Robin and the Sparrow](/robin-and-the-sparrow)
+* [Robin and the Sparrow](/robin-and-the-sparrow)
